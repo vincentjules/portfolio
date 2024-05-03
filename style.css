@@ -28,7 +28,7 @@ header{
   .nav > .nav-header > .nav-title {
     display: inline-block;
     font-size: 22px;
-    color: #061b47;
+    color: #16ced4;
     padding: 10px 10px 10px 10px;
     font-size: 40px;
   }
@@ -72,7 +72,7 @@ header{
  }
  .main-name>p{
     font-size: 30px;
-    color: tomato;
+    color: rgb(99, 71, 255);
  }
  .imgg{
     height:500px; 
@@ -131,7 +131,7 @@ button, button>a{
   padding: 0 300px;
 }
 .sub-what{
-  width: 400px;
+  width:400px;
   height: 200px;
   background-color: rgb(5, 16, 17);
   
@@ -184,11 +184,11 @@ button, button>a{
 .main-intouch{
   display: flex;
   gap: 3rem;
-  margin-left: 700px;
+  margin-left:400px;
 }
 .group1{
   border-bottom: 2px solid rgb(156, 98, 98);
-  width: 20vw;
+  width: 25vw;
   padding-bottom: 10px;
   margin-bottom: 12px;
   margin-left: 10px;
@@ -196,16 +196,16 @@ button, button>a{
   line-height: 70px;
 }
 textarea{
-  height: 80px;
+  height: 100px;
   font-size: 30px;
   width: 44vw;
-  margin-left:650px;
+  margin-left:450px;
   margin-top: 41px;
   background-color:rgb(47, 64, 65) ;
 }
 #but{
   align-items: center;
-  margin-left: 50%;
+  margin-left: 45%;
   margin-top: 30px;
   height: 50px;
   font-size: 10px;
@@ -306,6 +306,10 @@ footer{
         font-size: 14px;
         margin: 0;
       }
+      .about>.main-about>h3{
+        font-size: 40px;
+        color: greenyellow;
+      }
       .about-image{
         display: grid; 
        grid-template-columns: repeat(2,1fr);
@@ -315,6 +319,9 @@ footer{
         margin: 0;
         width: 100%;
     
+      }
+      .what{
+        color: greenyellow;
       }
       .whatt{ 
         display: grid;
@@ -361,6 +368,9 @@ footer{
         font-size: 20px;
     
       }
+      .myskills{
+        color: greenyellow;
+      }
       .myskills>h4{
         font-size: 30px;
         text-align: center;
@@ -369,16 +379,20 @@ footer{
         color: #d0e611;
         font-size: 20px;
     }
+    .touch{
+      color: greenyellow;
+    }
     .main-intouch{
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       margin: 0;
-      font-size: 5px;
       padding: 0;
     }
     .group1{
       font-size:15px;
-      gap: 1rem;  
+      gap: 1rem;
+       
+       
     }
     textarea{
       margin: 0 50px;
@@ -386,6 +400,7 @@ footer{
     }
     #but{
       margin: 0 120px;
+      
     }
     
   }
