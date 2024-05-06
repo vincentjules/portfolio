@@ -6,7 +6,7 @@
 body{
     background-color: rgb(3, 0, 0);
     color: white;
-    padding: 0 10px;
+    padding: 0;
 }
 header{
     font-size: 40px;
@@ -69,11 +69,11 @@ header{
  }
  .main-name>h2{
     font-size: 60px;
-    color: yellowgreen;
+    color: rgb(238, 247, 222);
  }
  .main-name>p{
-    font-size: 30px;
-    color: rgb(99, 71, 255);
+    font-size: 20px;
+    color: rgb(221, 219, 233);
  }
  .imgg{
     height:500px; 
@@ -83,17 +83,21 @@ header{
      
 }
 .but, .but>a{
-    background-color: rgb(108, 238, 108);
-    color: black;
+  padding: 10px;
+    background-color: rgb(3, 36, 3);
+    color: rgb(223, 211, 211);
     text-decoration: none;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
     
 }
+
 button, button>a{
-    font-size: 30px;
-    background-color: #4d4d4d;
+  margin-top: 15px;
+  padding: 10px;
+    font-size: 15px;
+    background-color: #1b1a1a;
     text-decoration: none;
-    color: black;
+    color: rgb(212, 218, 212);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
@@ -220,12 +224,12 @@ textarea {
 
 #but{
   align-items: center;
-  margin-left: 45%;
+  margin-left: 2%;
   margin-top: 30px;
   height: 50px;
   font-size: 10px;
   border-radius: 5px;
-  background-color: rgb(58, 71, 58);
+  background-color: rgb(11, 36, 11);
   
 }
 footer{
@@ -251,18 +255,19 @@ footer{
       }
       .nav{
         height: 80px;
+        width: 100%;
         padding: 0;
         margin: 0;
       }
       .nav > .nav-header > .nav-title{
-        font-size: 40px;
+        font-size: 30px;
       }
       .nav > .nav-btn > label {
         display: inline-block;
         width: 50px;
         height: 50px;
         padding: 13px;
-        padding-top: 35px;
+        padding-top: 25px;
       }
       
       .nav > .nav-btn > label > span {
@@ -271,7 +276,7 @@ footer{
         height: 10px;
         border-top: 2px solid #0ff394;
         margin-top: -3px;
-        margin-left: -40px;
+        margin-left: -20px;
       }
       .nav > .nav-links {
         position: absolute;
@@ -308,8 +313,9 @@ footer{
       .main-name>h2,.main-name> p{
         font-size: 30px;
       }
-      .but>a, button>a{
-        font-size: 30px;
+     .but, .but>a,button, button>a{
+        font-size: 20px;
+        padding: 2px;
       }
       .imgg{
         width: 100%;
